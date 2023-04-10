@@ -1,0 +1,19 @@
+{
+	"ComponenteFuncional": {
+		"scope": "javascript,typescript",
+	 	"prefix": "compfunc",
+	 	"body": [
+	 		"import React from 'react';",
+			"import { Text } from 'react-native';",
+			"import Padrao from '../estilo/Padrao';",
+			"",
+			"",
+			"export default (props: any) => {",
+	 		"return(",
+			"<Text> $1 </Text>",
+			")",
+			"}"
+	 	],
+	 	"description": "Log output to console"
+	 }
+}

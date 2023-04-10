@@ -6,6 +6,8 @@ import ParImpar from "./componentes/ParImpar";
 import Familia from "./componentes/relacao/Familia";
 import Membro from "./componentes/relacao/Membro";
 import UsuarioLogado from "./componentes/UsuarioLogado";
+import Botao from "./componentes/Botao";
+import Contador from "./componentes/Contador";
 
 export default class App extends Component {
   render() {
@@ -26,11 +28,16 @@ export default class App extends Component {
           <Membro nome="Gustavo" sobreNome="Cunha"/>
       </Familia>*/}
 
-      <UsuarioLogado usuario={ {nome:'teste', email:'teste@teste.com'}} />
+      {/*<UsuarioLogado usuario={ {nome:'teste', email:'teste@teste.com'}} />
       <UsuarioLogado usuario={ {nome: 'teste 2'}}/>
       <UsuarioLogado usuario={ {email:'teste@teste.com'}} />
       <UsuarioLogado usuario= {null} />
-      <UsuarioLogado usuario={ {} } />
+      <UsuarioLogado usuario={ {} } />*/}
+
+      {/*<Botao />*/}
+
+      <Contador valorInicial={50} />
+
 
       </View>
     );
