@@ -8,6 +8,7 @@ import Membro from "./componentes/relacao/Membro";
 import UsuarioLogado from "./componentes/UsuarioLogado";
 import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
+import DigiteSeuNome from "./componentes/DigiteSeuNome";
 
 export default class App extends Component {
   render() {
@@ -36,7 +37,9 @@ export default class App extends Component {
 
       {/*<Botao />*/}
 
-      <Contador valorInicial={50} />
+      {/*<Contador valorInicial={50} />*/}
+
+      <DigiteSeuNome />
 
 
       </View>
