@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.exercicio.app-mergeDebugResources-20:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.exercicio.app-mergeDebugResources-27:/values-large-v4/values-large-v4.xml",
             "map": [
+                {
+                    "source": "/home/tamyris/.gradle/caches/transforms-3/380fe58bf6c527a4ee00ff107d224565/transformed/material-1.1.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
                 {
                     "source": "/home/tamyris/.gradle/caches/transforms-3/2df373b9327185da857aa9641682c512/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
                     "from": {

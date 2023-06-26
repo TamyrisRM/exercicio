@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.exercicio.app-mergeDebugResources-20:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.exercicio.app-mergeDebugResources-27:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "/home/tamyris/.gradle/caches/transforms-3/2df373b9327185da857aa9641682c512/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",

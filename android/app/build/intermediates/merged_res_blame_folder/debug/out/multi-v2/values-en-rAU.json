@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.exercicio.app-mergeDebugResources-20:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.exercicio.app-mergeDebugResources-27:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/tamyris/.gradle/caches/transforms-3/2df373b9327185da857aa9641682c512/transformed/appcompat-1.4.1/res/values-en-rAU/values-en-rAU.xml",

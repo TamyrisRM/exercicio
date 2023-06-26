@@ -1,5 +1,9 @@
 import React, {Component} from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { MainStackNavigator } from "./componentes/Menu/StackNavigator";
+import BottomTabNavigator from "./componentes/Menu/TabNavigator";
 import { View, Text, StyleSheet } from "react-native";
+
 import Simples from "./componentes/Simples";
 import Frag from "./componentes/Frag";
 import ParImpar from "./componentes/ParImpar";
@@ -15,15 +19,26 @@ import Calculadora from "./componentes/Calculadora/Calculadora";
 
 
 export default class App extends Component {
+  render(){
+    return(
+      <NavigationContainer>
+        <BottomTabNavigator />
+      </NavigationContainer>
+    );
+  }
+  
+};
+
+{/*export default class App extends Component {
   render() {
     return (
       <View style={estilos.container}>
-        {/*<Simples texto='Tamyris'/>*/}
-        {/*<Frag titulo="Cadastro" 
-        subTitulo="Tela de Cadastro de Produto"/>*/}
-        {/*<ParImpar numero="9" />*/}
+        <Simples texto='Tamyris'/>
+        <Frag titulo="Cadastro" 
+        subTitulo="Tela de Cadastro de Produto"/>
+        <ParImpar numero="9" />
 
-        {/*<Familia>
+        <Familia>
             <Membro nome="Maria" sobreNome="Silva" />
             <Membro nome="José" sobreNome="Silva" />
         </Familia>
@@ -31,23 +46,23 @@ export default class App extends Component {
         <Familia>
           <Membro nome="Bianca" sobreNome="Cunha"/>
           <Membro nome="Gustavo" sobreNome="Cunha"/>
-      </Familia>*/}
+      </Familia>
 
-      {/*<UsuarioLogado usuario={ {nome:'teste', email:'teste@teste.com'}} />
+      <UsuarioLogado usuario={ {nome:'teste', email:'teste@teste.com'}} />
       <UsuarioLogado usuario={ {nome: 'teste 2'}}/>
       <UsuarioLogado usuario={ {email:'teste@teste.com'}} />
       <UsuarioLogado usuario= {null} />
-      <UsuarioLogado usuario={ {} } />*/}
+      <UsuarioLogado usuario={ {} } />
 
-      {/*<Botao />*/}
+      <Botao />
 
-      {/*<Contador valorInicial={50} />
+      <Contador valorInicial={50} />
 
       <DigiteSeuNome />
       
       <DimensoesFixas/>
 
-    <Mega qtdeNumeros={6} />*/}
+    <Mega qtdeNumeros={6} />
 
     
       <Calculadora />
@@ -56,7 +71,7 @@ export default class App extends Component {
       
     );
   }
-}
+}*/}
 const estilos = StyleSheet.create({
   container:{
     flex: 1,

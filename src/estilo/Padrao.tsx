@@ -21,5 +21,11 @@ export default StyleSheet.create({
         borderColor: '#b742ea',
         backgroundColor: '#571f6f',
         borderRadius: 7,
+    },
+    center: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "center",
     }
 })

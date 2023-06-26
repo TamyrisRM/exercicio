@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.exercicio.app-mergeDebugResources-20:/values-ko/values-ko.xml",
+            "outputFile": "com.exercicio.app-mergeDebugResources-27:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/home/tamyris/.gradle/caches/transforms-3/2df373b9327185da857aa9641682c512/transformed/appcompat-1.4.1/res/values-ko/values-ko.xml",

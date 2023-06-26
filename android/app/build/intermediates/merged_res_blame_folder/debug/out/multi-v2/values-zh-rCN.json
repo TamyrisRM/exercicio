@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.exercicio.app-mergeDebugResources-20:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "com.exercicio.app-mergeDebugResources-27:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/tamyris/.gradle/caches/transforms-3/4d75081b3a46de54df7f9175cb62a673/transformed/core-1.7.0/res/values-zh-rCN/values-zh-rCN.xml",
